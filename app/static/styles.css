@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: #0056b3;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Общий стиль контейнера */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Цвет фона контейнера */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Лёгкая тень для выделения */
+}
+
+/* Стили для таблицы */
+table {
+    width: 100%; /* Таблица занимает всю ширину контейнера */
+    max-width: 100%; /* Ограничение ширины таблицы */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    border-collapse: collapse;
+    text-align: center; /* Центровка текста в таблице */
+    overflow-x: auto; /* Горизонтальная прокрутка при переполнении */
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Центровка содержимого таблицы */
+table, th, td {
+    text-align: center;
+}
+
+/* Убедиться, что таблица не выходит за пределы контейнера */
+table {
+    overflow-x: auto; /* Горизонтальная прокрутка для таблицы, если она шире контейнера */
+    display: block;
+}
+
+/* Дополнительные стили для маленьких экранов */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    th, td {
+        font-size: 12px; /* Уменьшение размера шрифта для маленьких экранов */
+    }
+
+    table {
+        display: block; /* Обеспечение адаптивности таблицы */
+        overflow-x: auto;
+    }
+}
+
+/* Расширение первого столбца */
+.table-first-column {
+    width: 150px; /* Установите нужную ширину */
+}
